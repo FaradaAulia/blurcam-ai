@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/blurcanvas.tsx","./src/components/camera.tsx","./src/components/capturebutton.tsx","./src/components/posedetector.ts","./src/components/statuscard.tsx","./src/hooks/usecamera.ts","./src/hooks/usehanddetection.ts","./src/pages/home.tsx"],"errors":true,"version":"6.0.3"}

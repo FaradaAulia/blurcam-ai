@@ -1,0 +1,81 @@
+:root {
+  color: #eef2ff;
+  background: #0b1020;
+  font-family: Inter, system-ui, sans-serif;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  border: 0;
+  border-radius: 999px;
+  color: #08111f;
+  background: #67e8f9;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+main {
+  display: grid;
+  width: min(92vw, 800px);
+  margin: 0 auto;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+p {
+  color: #a5b4fc;
+}
+
+main > div {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  aspect-ratio: 4 / 3;
+  background: #111827;
+}
+
+video,
+canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scaleX(-1);
+}
+
+video {
+  position: absolute;
+  opacity: 0;
+}
+
+canvas {
+  display: block;
+}
+
+output {
+  padding: 1rem;
+  border: 1px solid #334155;
+  border-radius: 1rem;
+  background: #111827;
+}
